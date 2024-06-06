@@ -1,7 +1,7 @@
 {
   "name": "@pax/pax-relatorio",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --port 8090",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
@@ -43,8 +43,21 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
+    "axios": "^1.7.2",
+    "file-saver": "^2.0.5",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.6.6",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "single-spa-react": "^4.3.1"
+    "react-router-dom": "^6.23.1",
+    "react-select": "^5.8.0",
+    "react-toastify": "^10.0.5",
+    "single-spa-react": "^4.3.1",
+    "xlsx": "^0.18.5"
   }
 }
